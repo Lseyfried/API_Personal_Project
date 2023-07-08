@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="main_page">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Mtte_sFHtaY0P0ZQKmzajgHaHa%26pid%3DApi&f=1&ipt=5c51bae92d5008d9cd84a2038f85508ac182931a6b41c250ecf009707cd3ba31&ipo=images"
+        alt="logo wikipedia"
+        class="logo_wiki"
+        width="100px"
+      />
+      <h1>Recherche Wikipedia</h1>
+      <form method="POST">
+        <input
+          type="text"
+          class="searchInput"
+          placeholder="Chercher un élément"
+        />
+      </form>
+      <p class="error-msg"></p>
+      <div class="results-display"></div>
+      <div class="loader">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
